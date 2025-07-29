@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.HomePageTest">
+      <class name="testcases.LogoutTest">
         <methods>
           <include name="tearDown"/>
+          <include name="validLogoutTest"/>
           <include name="setupBrowser"/>
-          <include name="verifyDashboardDisplaysLoginUsername"/>
         </methods>
-      </class> <!-- testcases.HomePageTest -->
+      </class> <!-- testcases.LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

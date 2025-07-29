@@ -14,9 +14,13 @@ public class Locators {
 	public static final String HOME_ACTIVE_INSTANCES = "//div/p[contains(text(),'Active Instances')]";
 	public static final String HOME_MONTHLY_INTERACTIONS = "//div/p[contains(text(),'Monthly Interactions')]";
 	public static final String HOME_KNOWLEDGE_BASE = "//div/p[contains(text(),'Knowledge Base')]";
+	public static final String HOME_ELLIPSIS = "//button[@id='reka-popover-trigger-v-0-2']";
+	
+	
+	//LOGOUT
+	public static final String LOGOUT_BUTTON = "//div[@id='reka-popover-content-v-0-3']/div/button";
+
 
 
 	
-	
-
 }
