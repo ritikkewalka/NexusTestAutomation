@@ -24,6 +24,15 @@ public class HomePage
 						.isDisplayed());
 		
 	}
+
+	public void verifyCardsArePresentInDahsboard() {
+		// TODO Auto-generated method stub
+		Assert.assertTrue(driver.findElement(By.xpath(Locators.HOME_ACTIVE_USERS)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Locators.HOME_ACTIVE_INSTANCES)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Locators.HOME_MONTHLY_INTERACTIONS)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Locators.HOME_KNOWLEDGE_BASE)).isDisplayed());
+
+	}
 	
 	
 

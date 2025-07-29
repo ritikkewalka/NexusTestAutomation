@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyDashboardCards">verifyDashboardCards</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,6 +153,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyDashboardCards">
+                  </a> <!-- verifyDashboardCards -->
+                  <span class="method-name">verifyDashboardCards</span>
+                  <em>
+(Verify dashboards cards)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyDashboardDisplaysLoginUsername">
                   </a> <!-- verifyDashboardDisplaysLoginUsername -->
                   <span class="method-name">verifyDashboardDisplaysLoginUsername</span>
@@ -160,7 +174,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/Ritik/KeyreplyTestAutomation/xmlfiles/testng.xml</span>
+            <span class="header-content">/Users/Ritik/KeyreplyNexusTestAutomation/xmlfiles/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -205,6 +219,10 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">verifyDashboardCards</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">verifyDashboardDisplaysLoginUsername</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -212,6 +230,10 @@
             <div class="test-group">
               <span class="test-group-name">homepage</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDashboardCards</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">verifyDashboardDisplaysLoginUsername</span>
                 <br/>
@@ -241,20 +263,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLoginTest')
 data.setCell(0, 2, 'testcases.LoginTest')
-data.setCell(0, 3, 3687);
+data.setCell(0, 3, 4774);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyDashboardDisplaysLoginUsername')
+data.setCell(1, 1, 'verifyDashboardCards')
 data.setCell(1, 2, 'testcases.HomePageTest')
-data.setCell(1, 3, 59);
+data.setCell(1, 3, 98);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyDashboardDisplaysLoginUsername')
+data.setCell(2, 2, 'testcases.HomePageTest')
+data.setCell(2, 3, 69);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -296,21 +322,25 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">4098 ms</span>
+                <span class="method-start">5017 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyDashboardDisplaysLoginUsername</span>
-                <span class="method-start">8477 ms</span>
+                <span class="method-start">10626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDashboardCards</span>
+                <span class="method-start">11034 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9411 ms</span>
+                <span class="method-start">12331 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
